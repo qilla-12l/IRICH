@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo {
+            font-size: 1.5 rem;
+            font-weight: bold;
+        }
+        .nav-continer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 aut;
+            padding: 0.2 rem;
+        }
+        .nav-menu{
+            display: flex;
+            list-style: none;
+            gap: 20 px;
+        }
+        header {
+            background-color: rgb(172, 212, 127);
+            color: azure;
+            padding: 1rem 0;
+            top: 0;
+            z-index: 100;
+            position: sticky;
+        }
+        .hero{
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("https://image.idntimes.com/post/20240701/mega-minion-bd0bac00b5ea0bdf8886d4eb51462f89.jpg?tr=w-1920,f-webp,q-75&width=1920&format=webp&quality=75");
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+
+        }
+        .hero-content h1 {
+            font-size: 3 rem;
+            margin-bottom: 1 rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 5);
+        }
+        .hero-content p {
+            font-size: 3 rem;
+            margin-bottom: 1 rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="logo">qilla</div>
+            <nav class="nav-container">
+                <ul>
+                    <li><a href= "index.html" >home</a></li>
+                    <li><a href= "index2.html" >home</a></li>
+                    <li><a href= "index3.html" >home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>nama</h1>
+            <p>anak infor</p>
+            <a href="#projects">my project</a>
+        </div>
+    </section>
+    
+</body>
+</html>
